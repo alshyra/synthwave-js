@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  synthwave:
+    image: node:16-alpine3.14
+    entrypoint: ['sh', '-c']
+    command: ['ls && npm i && npm start']
+    working_dir: /home/node/app
+    volumes:
+      - .:/home/node/app

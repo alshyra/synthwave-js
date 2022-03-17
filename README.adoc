@@ -1,0 +1,48 @@
+= SynthwaveJS
+
+== Pitch
+
+Vous êtes nostalgique de la musique des années 80 ?
+Cyberpunk est votre jeu préféré et vous adorez JavaScript ?
+
+Lancez vous et créez votre morceau synthwave avec Scribbletune.
+
+== Description
+
+Grace à https://scribbletune.com[Scribletune] nous allons pouvoir générer des fichiers midi que l'on pourra mixer dans notre logiciel de MAO.
+
+== Prérequis
+
+Une machine avec `docker` et/ou `node`
+
+== Trame
+
+=== Lancer le projet
+
+Simplement lancer vos commandes habituelles `npm start` ou `docker-compose up`
+
+=== Le morceau
+
+. Coder la ligne du kick sur tous les temps
+. Coder la ligne le snar un temps sur 2
+. Coder le hat suivant le motif tss . tss tss
+. Coder la ligne de basse croches ou doubles croches sur la fondamentale de chaque accords
+. Coder les arpeges sur la progression d'accords
+. Idem pour le sythé en accords plaqués/nappes
+. Importer les pistes dans votre logiciel de MAO, mixer c'est prêt
+
+=== Pour aller plus loin
+
+. Coder une ligne mélodique qui sonne bien kitch
+. Changer de progression d'accords/gamme
+. Préparer un refrain
+. Préparer un drop
+. Préparer un contre chant
+
+
+== Ressources
+
+* https://github.com/scribbletune/scribbletune/tree/v4.1.0[Scribletune]
+* https://scribbletune.com/examples/beat[Documentation Scribletune]
+* https://github.com/nvm-sh/nvm[nvm]
+* https://www.docker.com[docker]
