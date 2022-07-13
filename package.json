@@ -2,13 +2,13 @@
   "name": "synthwave-js",
   "version": "0.0.1",
   "description": "A scribbletune project for synthwave midi file generation",
-  "main": "chords.js",
+  "main": "index.js",
   "dependencies": {
     "nodemon": "^2.0.15",
     "scribbletune": "4.1.0"
   },
   "scripts": {
-    "start": "nodemon ./chords.js",
+    "start": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "alshyra",
