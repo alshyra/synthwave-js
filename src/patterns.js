@@ -6,8 +6,9 @@ const patterns = {
   kick: 'xxxxxxxxxxxxxxxx',
   snare: '-x-x-x-x-x-x-x-x'.repeat(4),
   ch: 'x-xxx-xxx-xxx-xx',
+  chVariant: 'x-x-x-x-x-x-x-x-'.repeat(4),
   chords: 'x___x___x___x___'.repeat(4),
-  arps: 'x___x___x___x____',
+  arps: 'x___x___x___x___',
 };
 
 module.exports = patterns;

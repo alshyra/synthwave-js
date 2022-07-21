@@ -14,11 +14,21 @@ const snare = {
   pattern: patterns.snare,
 };
 
-// Same as above
+// hat that follows the bass line
 const hithat = {
   notes: 'c2',
-  pattern: patterns.ch,
+  pattern: patterns.ch.repeat(4),
+  subdiv: '16n',
+};
+
+// hat that strikes when snare is not playing
+const hithatVariant = {
+  notes: 'c2',
+  pattern: patterns.chVariant.repeat(4),
   subdiv: '8n',
 };
 
-module.exports = { kick, snare, hithat };
+// We need a break, something 1 2 3 1234 => xxx[xxxx]
+// Same beat leading to a drop 1 2 1234 sh => xxxx xx[xxxx]-
+
+module.exports = { kick, snare, hithat, hithatVariant };

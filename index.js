@@ -16,3 +16,4 @@ exportMidi('bassPedal', bass.pedalBass);
 exportMidi('kick', drums.kick);
 exportMidi('snare', drums.snare);
 exportMidi('hat', drums.hithat);
+exportMidi('hatVariant', drums.hithatVariant);
